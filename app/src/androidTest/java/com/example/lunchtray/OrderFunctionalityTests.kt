@@ -267,7 +267,7 @@ class OrderFunctionalityTests : BaseTest() {
      * Test that the correct snackbar is displayed when order is submitted
      */
     @Test
-    fun `order_snackbar`() {
+    fun order_snackbar() {
         // Select items and move to checkout
         fullOrderFlow()
         // Click submit
